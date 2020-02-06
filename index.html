@@ -1,0 +1,194 @@
+<html>
+  <head><title>Voices for Autism</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Voices for Autism for Autism Awareness</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Voices For Autism<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="brosunited.html">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">
+                Alexa Skills
+              </a>
+              </div>
+            </li>
+        </div>
+    </nav>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>
+                    <a href="" class="typewrite" data-period="1000" data-type='[ "Voices for Autism", "Where every voice matters."]'>
+                      <span class="wrap"></span>
+                    </a>
+                  </h1>
+            </div>
+          </div>
+
+    <br>
+    <br>
+
+    <div id="instructions">
+      <h2>Create your own Alexa commands with Voices for Autism</h2>
+      <p>Voices for Autism is a program that allows parents to write out commands for their
+        children on any end of the autism spectrum. The command will them be automated to an 
+        Amazon Echo Dot, where Alexa will be able to spit out the command to your child.
+        <strong>Here it is! Try Voices for Autism now! Simply type out a command and listen to the Alexa 
+          skill get processed into the webpage which will be automated to the Alexa skillskit 
+          database for your use! Every voice matters!
+        </strong>
+      </p>
+    </div>
+
+
+    <div id="content">
+
+      Voice:
+
+      <select id="voiceSelected">
+        <option value="Ivy">Ivy [English - American]</option>
+        <option value="Joanna">Joanna [English - American]</option>
+        <option value="Joey">Joey [English - American]</option>
+        <option value="Justin">Justin [English - American]</option>
+        <option value="Kendra">Kendra [English - American]</option> 
+        <option value="Kimberly">Kimberly [English - American]</option>
+        <option value="Salli">Salli [English - American]</option>
+        <option value="Nicole">Nicole [English - Australian]</option>
+        <option value="Russell">Russell [English - Australian]</option>
+        <option value="Emma">Emma [English - British]</option>
+        <option value="Brian">Brian [English - British]</option>
+        <option value="Amy">Amy [English - British]</option>
+        <option value="Raveena">Raveena [English - Indian]</option>        
+        <option value="Geraint">Geraint [English - Welsh]</option>
+        <option value="Ricardo">Ricardo [Brazilian Portuguese]</option>
+        <option value="Vitória">Vitória [Brazilian Portuguese]</option>
+        <option value="Lotte">Lotte [Dutch]</option>
+        <option value="Ruben">Ruben [Dutch]</option>
+        <option value="Mathieu">Mathieu [French]</option>
+        <option value="Céline">Céline [French]</option>
+        <option value="Chantal">Chantal [Canadian French]</option>
+        <option value="Marlene">Marlene [German]</option>
+    	<option value="Dóra">Dóra [Icelandic]</option>
+    	<option value="Karl">Karl [Icelandic]</option>
+        <option value="Carla">Carla [Italian]</option>
+        <option value="Giorgio">Giorgio [Italian]</option>
+        <option value="Mizuki">Mizuki [Japanese]</option>
+        <option value="Liv">Liv [Norwegian]</option>
+        <option value="Maja">Maja [Polish]</option>
+        <option value="Jan">Jan [Polish]</option>
+    	<option value="Ewa">Ewa [Polish]</option>
+    	<option value="Cristiano">Cristiano [Portuquese]</option>
+        <option value="Inês">Inês [Portuquese]</option>
+        <option value="Carmen">Carmen [Romanian]</option>
+        <option value="Maxim">Maxim [Russian]</option>
+        <option value="Tatyana">Tatyana [Russian]</option>
+        <option value="Enrique">Enrique [Spanish]</option>
+        <option value="Penélope">Penélope [US Spanish]</option>
+        <option value="Enrique">Miguel [US Spanish]</option>
+        <option value="Conchita">Conchita [Castilian Spanish]</option>
+        <option value="Astrid">Astrid [Swedish]</option>
+        <option value="Filiz">Filiz [Turkish]</option>
+        <option value="Gwyneth">Gwyneth [Welsh]</option>
+
+        
+      </select>
+
+      <input type="submit" value="Create Command" id="sayButton" class="buttons" id="submission" type="button" class="btn btn-dark ml-4">
+
+    </br></br>
+
+    <div class ="form-group>">
+    <textarea id ="postText"></textarea>
+    <span id="charCounter">Characters: 0</span>
+    </div>
+
+    </br></br></br></br>
+      <input type="submit" class="buttons justify-content-center" value="Search Commands" id="searchButton">
+      <br/>
+    </div>
+
+
+
+      <table id="posts">
+        <colgroup>
+          <col style="width:12%">
+          <col style="width:45%">
+          <col style="width:43%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Voice</th>
+            <th>Command</th>
+            <th>MP3 File</th>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+<!-- Site footer -->
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>Voices for Autism</h6>
+          <p class="text-justify">Where every voice matters.</p> 
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Contact</h6>
+          <ul class="footer-links">
+            <li><a href="https://www.washington.edu/">University of Washington</a></li>
+            <li><a href="https://www.facebook.com/UWTDX/">4532 19th Ave NE, Seattle WA</a></li>
+            <li><a href="https://www.linkedin.com/in/marcpunio/">M: (206)-941-0052</a></li>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Navigation</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Voice for Autism</a></li>
+            <li><a href="brosunited.html">What We Do</a></li>
+            <li><a href="skills.html">Alexa Skills</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+       <a href="https://www.marcpunio.com">Marc Punio</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="https://www.facebook.com/UWTDX/"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/marcpunio/"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,409 @@
+body, html {
+	font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    height:100%;
+}
+
+#welcome {
+	float: right;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("littlebro.jpg");
+
+  
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* The hero image */
+.hero-image-brosunited {
+	/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("Bros United.jpg");
+	  /* Set a specific height */
+	  height: 60%;
+
+	  /* Position and center the image to scale nicely on all screens */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+}  
+/* The hero image */
+.hero-image-skills {
+	/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("echo.jpg");
+	  /* Set a specific height */
+	  height: 60%;
+
+	  /* Position and center the image to scale nicely on all screens */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+}  
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    align-content: center;
+}
+
+
+p {
+    text-align: center;
+    justify-content: space-around;
+}
+
+#instructions {
+	text-align: center;
+}
+
+#instructions p {
+	padding-top: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 30px;
+}
+
+#navbar {
+	background-color: rgb(4, 108, 150);
+	color: rgb(4, 108, 150);;
+}
+
+header {
+	padding: 60px;
+	text-align: center;
+	background: rgb(33, 50, 59);
+	color:rgb(218, 229, 233);
+	font-size: 64px;
+	font-family: Helvetica;
+  }
+
+li a {
+    display: block;
+    color: rgb(228, 222, 222);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.buttons {
+	border : solid 0px rgb(33, 50, 59);
+	border-radius : 8px;
+	font-size : 16px;
+	color : #ffffff;
+	padding : 5px 18px;
+	background-color : rgb(33, 50, 59);
+	cursor:pointer;
+}
+
+.buttons:hover {
+	background-color:rgb(33, 50, 59);
+}
+
+.buttons:active {
+	position:relative;
+	top:1px;
+}
+
+#newPost {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#charCounter { float:right }
+
+textarea {
+  width:		100%;
+	height: 	10em;
+}
+
+#content {
+  width: 90% ;
+  margin-left: auto ;
+  margin-right: auto;
+	margin-bottom: 10px;
+	font-family:arial;
+	word-spacing:4pt;
+	font-size:14px;
+}
+
+#posts {
+	font-weight:normal;
+	color:#000000;
+	word-spacing:4pt;
+	font-size:10px;
+	text-align:left;
+	font-family:arial;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#posts th {
+	background-color: rgb(33, 50, 59);
+	color: white;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+#posts td {
+	padding: 8px;
+	border-color: #666666;
+	background-color: #ffffff;
+	border-bottom: 1px solid #ddd;
+}
+
+.site-footer
+{
+  background-color:rgb(33, 50, 59);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+#typewrite {
+color: white;
+}
+   body {
+      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: rgb(255, 255, 255);}
+      25%  {background: rgb(228, 228, 228);}
+      50%  {background: rgb(20, 136, 231);}
+      75%  {background: rgb(228, 228, 228);}
+      100% {background: rgb(255, 255, 255);}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+		0%   {background: rgb(255, 255, 255);}
+		25%  {background: rgb(228, 228, 228);}
+		50%  {background: rgb(20, 136, 231);}
+		75%  {background: rgb(228, 228, 228);}
+		100% {background: rgb(255, 255, 255);}
+	}
+	
+	/*
+flip card
+*/
+.card-flip > div {
+	backface-visibility: hidden;
+	transition: transform 300ms;
+	transition-timing-function: linear;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+  }
+  
+  .card-front {
+	transform: rotateY(0deg);
+  }
+  
+  .card-back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+  }
+  
+  .card-flip:hover .card-front {
+	transform: rotateY(-180deg);
+  }
+	
+  .card-flip:hover .card-back {
+	transform: rotateY(0deg);
+  }
+
+  #card-text {
+	  display: block;
+  }
+
+/* footer */
